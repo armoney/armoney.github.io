@@ -17,40 +17,45 @@ body {
 }
 
 .my-pic {
-    width: 120px;
+    width: 160px;
     height: auto;
     display: inline-block;
-    margin: 20px;
+    margin: 40px;
 }
 
 .my-name {
     /*text-align: left;*/
     /*vertical-align: top;*/
-    margin-top: 40px;
+    padding-left: 20px;
+    margin-top: 70px;
     margin-bottom: 0px;
     color: #F7CB15;
-    font-size: 2.5em;
+    font-size: 3.2em;
+    text-shadow: 1px 1px 1px #000000;
     /*display: inline-block;*/
 }
 
 .my-title {
     /*vertical-align: top;*/
+    padding-left: 20px;
     color: #F55D3E;
     margin-top: 0px;
-    font-size: 1.5em;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 1px #000000;
 
 
     /*display: inline-block;*/
 }
 
 .row {
-    width: 100%;
+    width: 800px;
+    margin: auto;
     display: flex; 
     flex-wrap: wrap;
 }
 
 .row-1 {
-    height: 150px;
+    height: 250px;
     background-color: #878E88;
     display: flex; 
     flex-wrap: wrap;
@@ -72,6 +77,7 @@ body {
     vertical-align: bottom;
     padding-right: 10px;
     padding-top: 12px;
+    font-size: 1.1em;
 }
 
 .bars {
@@ -95,13 +101,19 @@ body {
     background: url(../imgs/2bars.png) no-repeat right 0px;
 }
 
+.featured-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #F55D3E;
+}
+
 .my-work {
     color: black;
     background-color: #FFFFFF;
 }
 
 .top-skill-row {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -111,18 +123,45 @@ body {
 }
 
 .bottom-skill-row {
-    margin-bottom: 50px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-.profile-pic {
-    text-align: left;
-    width: 100px;
+.phoney-pic {
+    width: 600px;
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:block;
+    margin:auto;
 }
+
+.eclair-gif {
+    width: 600px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:block;
+    margin:auto;
+}
+
+.project-col {
+  padding-top: 60px;
+}
+
 
 p {
-    padding: 10px;
+
+}
+
+.project-title {
+    padding-left: 100px;
+    padding-right: 30px;
+    font-size: 1.5em;
+    color: #F55D3E;
+}
+
+.project-text {
+    padding-left: 100px;
+    padding-right: 100px;
     overflow: auto;
 }
 
@@ -191,11 +230,11 @@ p {
 }*/
 
 a:link {
-  /*color: #FF0000;*/
+  color: #F55D3E;
 }
 
 a:visited {
-  /*color: #00FF00;*/
+  color: #76BED0;
 }
 
 @media screen and (min-width: 900px) {
