@@ -263,6 +263,9 @@ a:visited {
 }
 
 @media screen and (min-width: 900px) {
+  img, embed, object, video {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width:1750px){
@@ -302,5 +305,9 @@ a:visited {
 }
 
 @media only screen and (max-width:380px){
+  nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+  }
 }
 
