@@ -1,8 +1,8 @@
 [My personal website](https://armoney.github.io)
 
 ## Where I'm At
-* >>> Make it work
-* Make it responsive
+* Make it work
+* >>> Make it responsive
 * Add javascript functionality
 * Add button to download resume
 * Add contact form
