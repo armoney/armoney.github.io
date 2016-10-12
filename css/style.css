@@ -101,10 +101,17 @@ body {
     background: url(../imgs/2bars.png) no-repeat right 0px;
 }
 
-.featured-title {
+.section-title {
   text-align: center;
   font-size: 2.2em;
   color: #F55D3E;
+}
+
+.about-me {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  margin: 35px;
 }
 
 .my-work {
@@ -155,11 +162,6 @@ body {
   padding-top: 60px;
 }
 
-
-p {
-
-}
-
 .project-title {
     padding-left: 100px;
     padding-right: 30px;
@@ -171,6 +173,21 @@ p {
     padding-left: 100px;
     padding-right: 100px;
     overflow: auto;
+}
+
+.about-me-text {
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: auto;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.about-me-row {
+    background-color: #F55D3E;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 .col-1 {
