@@ -1,25 +1,124 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Armon Arcuri</title>
-        <link rel="stylesheet" type="text/css" href="style.css"></li>
-    </head>
-    <body>
-        <div class="nav">
-        </div>
-        <div class="armon-div">
-        </div>
-        <div class="about-me">
-        </div> 
-        <div class="portfolio">
-        </div> 
-        <div class="resume">
-        </div> 
-        <div class="contact">
-        </div>        
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize-css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i" rel="stylesheet">
+  <title>Armon Arcuri</title>
+</head>
+<body>
+  <!-- <nav></nav> -->
+  <div class='grid'>
+    <div class='row row-1'>
+      <div class='col-3'>
+        <img class='my-pic' src="images/headshot.jpg">
+      </div>
+      <div class='col-9f'>
+        <h1 class='my-name'>Armon Arcuri</h1>
+        <h2 class='my-title'>Full Stack Developer</h2>
+      </div>
+    </div>
 
-        <h1></h1>
-        <h2></h2>
-        <p></p>
-    </body>
+    <!-- <hr> -->
+
+    <div class='row skills-div'>
+      <div class='row top-skill-row'>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>Ruby</div>
+          <div class='col-6'><img class='bars' src="images/4bars.png"></div>
+        </div>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>Ruby on Rails</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>Sinatra</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+      </div>
+
+      <div class='row middle-skill-row'>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>ActiveRecord</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>Javascript</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>jQuery</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+      </div>
+
+      <div class='row middle-skill-row'>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>Node.js</div>
+          <div class='col-6'><img class='bars' src="images/2bars.png"></div>
+        </div>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>AJAX</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>GitHub</div>
+          <div class='col-6'><img class='bars' src="images/4bars.png"></div>
+        </div>
+      </div>
+
+      <div class='row bottom-skill-row'>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>HTML</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>MySQL</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+        <div class='col-4 skill'>
+          <div class='col-6 tech'>CSS</div>
+          <div class='col-6'><img class='bars' src="images/3bars.png"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <hr> -->
+
+    <div class='row my-work'>
+      <div class='row'>
+        <h3 class='col-12 featured-title'>Latest work</h3>
+      </div>
+
+      <div class='row'>
+        <div class='col-12'>
+          <img class='phoney-pic' src="images/phoney.jpg">
+          <h4 class='project-title'>Phoney</h4>
+          <p class='project-text'>Featured on <a href="https://techcrunch.com/2016/09/11/phoney-club-gets-you-out-of-uncomfortable-conversations/">TechCrunch</a>  and  <a href="https://www.ibm.com/blogs/watson/2016/09/watson-shines-techcrunch-disrupt-sf-hackathon/">IBM Watson Blog</a>. A mobile-first app that helps users get out of tough conversations. Utilizes IBM Watson API set to listen to a preset word or phrase. When user speaks the phrase, the app sends a call to the user's phone, using the Twilio API, giving the user a smooth excuse to exit. 
+          <p class='project-text'>Tech: Javascript, Node.js</p> 
+        </div>
+      </div>
+              
+      <div class='row'>
+        <div class='col-12 project-col'>
+          <img class='eclair-gif' src="images/eclair.gif">
+          <h4 class='project-title'>Eclair</h4>
+          <p class='project-text'>Created at Health 2.0 codeathon, with Eclair, we created a proactive way for seniors to EASILY avoid their MEDICARE PART D coverage gap! Eclair utilizes the Pokitdok Pharmacy Formulary API to look up costs of medications using the patient's insurance and the FBD Cloud Connector API to return alternative medication suggestions.</p> 
+          <p class='project-text'>Tech: Ruby on Rails, Javascript, jQuery, Bootstrap.</p>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-12 project-col'>
+          <img class='guardian-gif' src="images/animated.gif">
+          <h4 class='project-title'>Guardian</h4>
+          <p class='project-text'>DBC Final Project. Guardian is a mobile-first(only) app that utilizes a Parrot AR drone 2.0 as an API to help get you home safely. When the the app is engaged, the user's location and the drone's video feed is sent to a contact so that they can watch over their friend.</p> 
+          <p class='project-text'>Tech: Parrot AR Drone 2.0, Ruby on Rails, Javascript, jQuery, Flexbox.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
 </html>
