@@ -24,7 +24,7 @@ html, body, main {
 body {
     font-family: 'Muli', sans-serif;
     color: white;
-    background-color: #76BED0;
+    background-color: #A3C4BC;
 
 }
 
@@ -39,6 +39,7 @@ body {
     height: auto;
     display: inline-block;
     margin: 40px;
+    border-radius: 50%;
 }
 
 .my-name {
@@ -49,17 +50,17 @@ body {
     margin-bottom: 0px;
     color: #F7CB15;
     font-size: 3.2em;
-    text-shadow: 1px 1px 1px #000000;
+    /*text-shadow: 1px 1px 1px #000000;*/
     /*display: inline-block;*/
 }
 
 .my-title {
     /*vertical-align: top;*/
     padding-left: 20px;
-    color: #F55D3E;
+    color: #F44F49;
     margin-top: 0px;
     font-size: 2.2em;
-    text-shadow: 1px 1px 1px #000000;
+    /*text-shadow: 1px 1px 1px #000000;*/
 
 
     /*display: inline-block;*/
@@ -78,13 +79,13 @@ header, nav, footer, section, article, div {
 
 .row-1 {
     height: 250px;
-    background-color: #878E88;
+    background-color: #413C58;
     display: flex; 
     flex-wrap: wrap;
 }
 
 .skills-div {
-    background-color: #F55D3E;
+    background-color: #F44F49;
     color: #FFFFFF;
 }
 
@@ -126,7 +127,7 @@ header, nav, footer, section, article, div {
 .section-title {
   text-align: center;
   font-size: 2.2em;
-  color: #F55D3E;
+  color: #F44F49;
 }
 
 .about-me {
@@ -188,7 +189,7 @@ header, nav, footer, section, article, div {
     padding-left: 100px;
     padding-right: 30px;
     font-size: 1.5em;
-    color: #F55D3E;
+    color: #F44F49;
 }
 
 .project-text {
@@ -206,7 +207,7 @@ header, nav, footer, section, article, div {
 }
 
 .about-me-row {
-    background-color: #F55D3E;
+    background-color: #F44F49;
     display: flex; 
     flex-wrap: wrap;
 }
@@ -280,17 +281,17 @@ header, nav, footer, section, article, div {
 }*/
 
 a {
-    color: #F55D3E;
+    color: #F44F49;
     text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #F55D3E;
+  color: #F44F49;
 }
 
 a:visited {
-    color: #76BED0;
+    color: #A3C4BC;
 }
 
 .about-me-row a:hover {
