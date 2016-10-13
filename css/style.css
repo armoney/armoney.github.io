@@ -28,6 +28,12 @@ body {
 
 }
 
+.resume {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+}
+
 .my-pic {
     width: 160px;
     height: auto;
@@ -194,16 +200,19 @@ header, nav, footer, section, article, div {
 .about-me-text {
     padding-left: 100px;
     padding-right: 100px;
-    overflow: auto;
     font-size: 1.2em;
     margin-top: 0;
-    margin-bottom: 35px;
+    margin-bottom: 0;
 }
 
 .about-me-row {
     background-color: #F55D3E;
     display: flex; 
     flex-wrap: wrap;
+}
+
+.about-me-row a{
+    color: white;
 }
 
 .col-1 {
@@ -284,6 +293,10 @@ a:visited {
     color: #76BED0;
 }
 
+.about-me-row a:hover {
+  color: #F7CB15;
+}
+
 
 @media screen and (max-width: 615px) {
   .project-pic{
@@ -351,6 +364,22 @@ a:visited {
     text-align: center;
   }
 
+}
+
+@media screen and (max-width: 770px) {
+  nav {
+    width: 300px;
+    position: absolute;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+  }
+  nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
 }
 
 
