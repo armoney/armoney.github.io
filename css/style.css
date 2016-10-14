@@ -15,10 +15,10 @@ nav a, button {
 }
 
 html, body, main {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 body {
@@ -29,9 +29,9 @@ body {
 }
 
 .resume {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
 }
 
 .my-pic {
@@ -43,31 +43,25 @@ body {
 }
 
 .my-name {
-    /*text-align: left;*/
-    /*vertical-align: top;*/
     padding-left: 20px;
     margin-top: 70px;
     margin-bottom: 0px;
     color: #F7CB15;
     font-size: 3.2em;
-    /*text-shadow: 1px 1px 1px #000000;*/
-    /*display: inline-block;*/
+    text-shadow: 1px 4px 2px rgba(0,0,0,.16);
+    font-weight: bold;
 }
 
 .my-title {
-    /*vertical-align: top;*/
     padding-left: 20px;
     color: #F44F49;
     margin-top: 0px;
     font-size: 2.2em;
-    /*text-shadow: 1px 1px 1px #000000;*/
-
-
-    /*display: inline-block;*/
+    text-shadow: 1px 4px 2px rgba(0,0,0,.16);
 }
 
 header, nav, footer, section, article, div {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .row {
@@ -125,16 +119,21 @@ header, nav, footer, section, article, div {
 }
 
 .section-title {
-  text-align: center;
-  font-size: 2.2em;
-  color: #F44F49;
+    text-align: center;
+    font-size: 2.2em;
+    color: #F44F49;
+    text-shadow: 1px 4px 2px rgba(0,0,0,.16);
+    /*font-family: 'Open Sans',sans-serif;*/
+
 }
 
 .about-me {
-  text-align: center;
-  font-size: 2em;
-  color: white;
-  margin: 35px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin: 35px;
+    text-shadow: 1px 4px 2px rgba(0,0,0,.16);
+
 }
 
 .my-work {
@@ -182,7 +181,7 @@ header, nav, footer, section, article, div {
 }
 
 .project-col {
-  padding-top: 60px;
+    padding-top: 60px;
 }
 
 .project-title {
@@ -286,8 +285,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #F44F49;
+    text-decoration: underline;
+    color: #F44F49;
 }
 
 a:visited {
@@ -295,13 +294,20 @@ a:visited {
 }
 
 .about-me-row a:hover {
-  color: #F7CB15;
+    color: #F7CB15;
+}
+
+i {
+  text-shadow: 1px 4px 2px rgba(0,0,0,.16);
+
+
+
 }
 
 
 @media screen and (max-width: 615px) {
   .project-pic{
-      width: 380px;
+    width: 380px;
 
   }
   .guardian-gif {
@@ -381,6 +387,14 @@ a:visited {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+}
+
+@media screen and (min-width: 850px) {
+
+  .tech {
+      font-size: 1.3em;
+  }
+
 }
 
 
