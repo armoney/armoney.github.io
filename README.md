@@ -1,11 +1,11 @@
 [My personal website](https://armoney.github.io)
 
 ## Where I'm At
-* Make it work
-* >>> Make it responsive
-* Add button to download resume
-* Add contact form
+* Make it responsive
+* >>>> Add contact form
+* Add nav bar/hamburger menu
+
 
 ## Tech Stack
 * HTML
-* CSS3
+* CSS (no frameworks)
